@@ -16,6 +16,10 @@
 		A897169226A4AA7D00E00DE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A897169026A4AA7D00E00DE2 /* LaunchScreen.storyboard */; };
 		A897169D26A4AA7D00E00DE2 /* EsteeLauderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A897169C26A4AA7D00E00DE2 /* EsteeLauderTests.swift */; };
 		A89716A826A4AA7D00E00DE2 /* EsteeLauderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89716A726A4AA7D00E00DE2 /* EsteeLauderUITests.swift */; };
+		A897173C26A68A2600E00DE2 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A897173B26A68A2600E00DE2 /* TutorialViewController.swift */; };
+		A897173E26A68A4500E00DE2 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A897173D26A68A4500E00DE2 /* ProductsViewController.swift */; };
+		A897174026A68A6100E00DE2 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A897173F26A68A6100E00DE2 /* QuizViewController.swift */; };
+		A89717CC26A7AB4B00E00DE2 /* ReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89717CB26A7AB4B00E00DE2 /* ReviewsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		A89716A326A4AA7D00E00DE2 /* EsteeLauderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EsteeLauderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89716A726A4AA7D00E00DE2 /* EsteeLauderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsteeLauderUITests.swift; sourceTree = "<group>"; };
 		A89716A926A4AA7D00E00DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A897173B26A68A2600E00DE2 /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		A897173D26A68A4500E00DE2 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		A897173F26A68A6100E00DE2 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		A89717CB26A7AB4B00E00DE2 /* ReviewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +113,14 @@
 				A897168426A4AA7C00E00DE2 /* SceneDelegate.swift */,
 				A897168626A4AA7C00E00DE2 /* ViewController.swift */,
 				A897168826A4AA7C00E00DE2 /* Main.storyboard */,
+				A89717CB26A7AB4B00E00DE2 /* ReviewsViewController.swift */,
 				A897168E26A4AA7D00E00DE2 /* Assets.xcassets */,
 				A897169026A4AA7D00E00DE2 /* LaunchScreen.storyboard */,
 				A897169326A4AA7D00E00DE2 /* Info.plist */,
 				A897168B26A4AA7C00E00DE2 /* EsteeLauder.xcdatamodeld */,
+				A897173B26A68A2600E00DE2 /* TutorialViewController.swift */,
+				A897173D26A68A4500E00DE2 /* ProductsViewController.swift */,
+				A897173F26A68A6100E00DE2 /* QuizViewController.swift */,
 			);
 			path = EsteeLauder;
 			sourceTree = "<group>";
@@ -261,8 +273,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A897173E26A68A4500E00DE2 /* ProductsViewController.swift in Sources */,
+				A897174026A68A6100E00DE2 /* QuizViewController.swift in Sources */,
+				A89717CC26A7AB4B00E00DE2 /* ReviewsViewController.swift in Sources */,
 				A897168726A4AA7C00E00DE2 /* ViewController.swift in Sources */,
 				A897168326A4AA7C00E00DE2 /* AppDelegate.swift in Sources */,
+				A897173C26A68A2600E00DE2 /* TutorialViewController.swift in Sources */,
 				A897168526A4AA7C00E00DE2 /* SceneDelegate.swift in Sources */,
 				A897168D26A4AA7C00E00DE2 /* EsteeLauder.xcdatamodeld in Sources */,
 			);
