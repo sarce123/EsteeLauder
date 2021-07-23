@@ -10,7 +10,11 @@ import WebKit
 
 class TutorialViewController: UIViewController {
 
-   
+    
+    @IBAction func tutorialButtonTapped(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string:"https://www.esteelauder.com/esearch?search=double%20wear")! as URL, options: [:], completionHandler: nil)
+    }
+    
     @IBOutlet weak var myWebView: WKWebView!
     
     

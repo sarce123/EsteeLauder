@@ -20,6 +20,14 @@
 		A897173E26A68A4500E00DE2 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A897173D26A68A4500E00DE2 /* ProductsViewController.swift */; };
 		A897174026A68A6100E00DE2 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A897173F26A68A6100E00DE2 /* QuizViewController.swift */; };
 		A89717CC26A7AB4B00E00DE2 /* ReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89717CB26A7AB4B00E00DE2 /* ReviewsViewController.swift */; };
+		A8B1234C26AA7F960048915A /* glamresulteightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B1234B26AA7F960048915A /* glamresulteightViewController.swift */; };
+		A8EE664426AA7E6A00F66213 /* naturalresultoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EE664326AA7E6900F66213 /* naturalresultoneViewController.swift */; };
+		A8EE664626AA7E9400F66213 /* glamresulttwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EE664526AA7E9400F66213 /* glamresulttwoViewController.swift */; };
+		A8EE664826AA7EB900F66213 /* naturalresultthreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EE664726AA7EB900F66213 /* naturalresultthreeViewController.swift */; };
+		A8EE664A26AA7EDB00F66213 /* glamresultfourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EE664926AA7EDB00F66213 /* glamresultfourViewController.swift */; };
+		A8EE664C26AA7F0900F66213 /* glamresultfiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EE664B26AA7F0900F66213 /* glamresultfiveViewController.swift */; };
+		A8EE664E26AA7F2D00F66213 /* naturalresultsixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EE664D26AA7F2D00F66213 /* naturalresultsixViewController.swift */; };
+		A8EE665026AA7F5500F66213 /* naturalresultsevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EE664F26AA7F5500F66213 /* naturalresultsevenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +67,14 @@
 		A897173D26A68A4500E00DE2 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 		A897173F26A68A6100E00DE2 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		A89717CB26A7AB4B00E00DE2 /* ReviewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsViewController.swift; sourceTree = "<group>"; };
+		A8B1234B26AA7F960048915A /* glamresulteightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glamresulteightViewController.swift; sourceTree = "<group>"; };
+		A8EE664326AA7E6900F66213 /* naturalresultoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naturalresultoneViewController.swift; sourceTree = "<group>"; };
+		A8EE664526AA7E9400F66213 /* glamresulttwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glamresulttwoViewController.swift; sourceTree = "<group>"; };
+		A8EE664726AA7EB900F66213 /* naturalresultthreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naturalresultthreeViewController.swift; sourceTree = "<group>"; };
+		A8EE664926AA7EDB00F66213 /* glamresultfourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glamresultfourViewController.swift; sourceTree = "<group>"; };
+		A8EE664B26AA7F0900F66213 /* glamresultfiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glamresultfiveViewController.swift; sourceTree = "<group>"; };
+		A8EE664D26AA7F2D00F66213 /* naturalresultsixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naturalresultsixViewController.swift; sourceTree = "<group>"; };
+		A8EE664F26AA7F5500F66213 /* naturalresultsevenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naturalresultsevenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +137,14 @@
 				A897173B26A68A2600E00DE2 /* TutorialViewController.swift */,
 				A897173D26A68A4500E00DE2 /* ProductsViewController.swift */,
 				A897173F26A68A6100E00DE2 /* QuizViewController.swift */,
+				A8EE664326AA7E6900F66213 /* naturalresultoneViewController.swift */,
+				A8EE664526AA7E9400F66213 /* glamresulttwoViewController.swift */,
+				A8EE664726AA7EB900F66213 /* naturalresultthreeViewController.swift */,
+				A8EE664926AA7EDB00F66213 /* glamresultfourViewController.swift */,
+				A8EE664B26AA7F0900F66213 /* glamresultfiveViewController.swift */,
+				A8EE664D26AA7F2D00F66213 /* naturalresultsixViewController.swift */,
+				A8EE664F26AA7F5500F66213 /* naturalresultsevenViewController.swift */,
+				A8B1234B26AA7F960048915A /* glamresulteightViewController.swift */,
 			);
 			path = EsteeLauder;
 			sourceTree = "<group>";
@@ -273,13 +297,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8EE664A26AA7EDB00F66213 /* glamresultfourViewController.swift in Sources */,
 				A897173E26A68A4500E00DE2 /* ProductsViewController.swift in Sources */,
+				A8EE664E26AA7F2D00F66213 /* naturalresultsixViewController.swift in Sources */,
 				A897174026A68A6100E00DE2 /* QuizViewController.swift in Sources */,
+				A8EE664426AA7E6A00F66213 /* naturalresultoneViewController.swift in Sources */,
 				A89717CC26A7AB4B00E00DE2 /* ReviewsViewController.swift in Sources */,
 				A897168726A4AA7C00E00DE2 /* ViewController.swift in Sources */,
+				A8EE664C26AA7F0900F66213 /* glamresultfiveViewController.swift in Sources */,
 				A897168326A4AA7C00E00DE2 /* AppDelegate.swift in Sources */,
+				A8EE665026AA7F5500F66213 /* naturalresultsevenViewController.swift in Sources */,
 				A897173C26A68A2600E00DE2 /* TutorialViewController.swift in Sources */,
+				A8EE664626AA7E9400F66213 /* glamresulttwoViewController.swift in Sources */,
+				A8EE664826AA7EB900F66213 /* naturalresultthreeViewController.swift in Sources */,
 				A897168526A4AA7C00E00DE2 /* SceneDelegate.swift in Sources */,
+				A8B1234C26AA7F960048915A /* glamresulteightViewController.swift in Sources */,
 				A897168D26A4AA7C00E00DE2 /* EsteeLauder.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
